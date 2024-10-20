@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 211, 211);
+    background-size: calc(0);
+    background-repeat: no-repeat;
+}
+header{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+header div{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+header nav{
+    height: 60%;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header nav button{
+    background-image: linear-gradient(135deg, #0d5248, #370606);
+    color: white;
+    padding: 12px 19px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-position 0.5s ease;
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+}
+header nav button:hover{
+    background-position: 100% 0%;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    max-width: 700px;
+    padding-top: 5%;
+}
+.section1{
+    width: 100%;
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    width: 70%;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgb(255, 255, 255), #e2e2e2);
+    border-radius: 15px;
+    padding: 0px 50px;
+}
+.zdjecie{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.zdjecie img{
+    border-radius: 10px;
+}

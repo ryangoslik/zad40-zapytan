@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <div>
+        <h1>Możliwosci połączeń do bazy danych</h1>
+    </div>
+    
+    <nav>
+        
+
+<div class="position">
+    <button onclick="z1()">1</button>
+       <button onclick="z2()">2</button>
+       <button onclick="z3()">3</button>
+       <button onclick="z4()">4</button>
+       <button onclick="z5()">5</button>
+       <button onclick="z6()">6</button>
+       <button onclick="z7()">7</button>
+       <button onclick="z8()">8</button>
+       <button onclick="z9()">9</button>
+       <button onclick="z10()">10</button>
+       <button onclick="z11()">11</button>
+       <button onclick="z12()">12</button>
+       <button onclick="z13()">13</button>
+       <button onclick="z14()">14</button>
+       <button onclick="z15()">15</button>
+       <button onclick="z16()">16</button>
+       <button onclick="z17()">17</button>
+       <button onclick="z18()">18</button>
+       <button onclick="z19()">19</button>
+       <button onclick="z20()">20</button>
+       <button onclick="z21()">21</button>
+       <button onclick="z22()">22</button>
+       <button onclick="z23()">23</button>
+       <button onclick="z24()">24</button>
+       <button onclick="z25()">25</button>
+       <button onclick="z26()">26</button>
+       <button onclick="z27()">27</button>
+       <button onclick="z28()">28</button>
+       <button onclick="z29()">29</button>
+       <button onclick="z30()">30</button>
+       <button onclick="z31()">31</button>
+       <button onclick="z32()">32</button>
+       <button onclick="z33()">33</button>
+       <button onclick="z34()">34</button>
+       <button onclick="z35()">35</button>
+       <button onclick="z36()">36</button>
+       <button onclick="z37()">37</button>
+       <button onclick="z38()">38</button>
+       <button onclick="z39()">39</button>
+       <button onclick="z40()">40</button>
+    </div>
+    </nav>
+</header>
+
+
+<section class="section1">
+    <div class="content" id="contents">
+
+    </div>
+</section>
+    
+
+
+
+
+<script>
+
+function z1(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z1.png"> 
+    </div>
+    `;
+}
+function z2(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT first_name, last_name FROM employees;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z2.png"> 
+    </div>
+    `;
+}
+function z3(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name FROM employees WHERE department = 'IT';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z3.png"> 
+    </div>
+    `;
+}
+function z4(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE salary > 4500;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z4.png"> 
+    </div>
+    `;
+}
+function z5(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT first_name, salary FROM employees WHERE department = 'HR';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z5.png"> 
+    </div>
+    `;
+}
+function z6(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE hire_date > '2016-01-01';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z6.png"> 
+    </div>
+    `;
+}
+function z7(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE salary BETWEEN 4000 AND 5500;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z7.png"> 
+    </div>
+    `;
+}
+function z8(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department, COUNT(*) AS employee_count FROM employees GROUP BY department;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z8.png"> 
+    </div>
+    `;
+}
+function z9(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department, AVG(salary) AS average_salary FROM employees GROUP BY department;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z9.png"> 
+    </div>
+    `;
+}
+function z10(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT MAX(salary) AS highest_salary FROM employees;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z10.png"> 
+    </div>
+    `;
+}
+function z11(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name, hire_date FROM employees ORDER BY hire_date ASC;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z11.png"> 
+    </div>
+    `;
+}
+function z12(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE department IN ('HR', 'IT');</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z12.png"> 
+    </div>
+    `;
+}
+function z13(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM projects WHERE YEAR(start_date) = 2022;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z13.png"> 
+    </div>
+    `;
+}
+function z14(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT first_name, salary FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z14.png"> 
+    </div>
+    `;
+}
+function z15(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department_id, COUNT(*) AS project_count FROM projects GROUP BY department_id;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z15.png"> 
+    </div>
+    `;
+}
+function z16(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM projects WHERE end_date < '2022-12-31';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z16.png"> 
+    </div>
+    `;
+}
+function z17(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department_name FROM departments;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z17.png"> 
+    </div>
+    `;
+}
+function z18(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE last_name LIKE '%o%';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z18.png"> 
+    </div>
+    `;
+}
+function z19(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name FROM employees WHERE hire_date = (SELECT MIN(hire_date) FROM employees);</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z19.png"> 
+    </div>
+    `;
+}
+function z20(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name, salary FROM employees ORDER BY salary DESC;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z20.png"> 
+    </div>
+    `;
+}
+function z21(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT YEAR(hire_date) AS hire_year, COUNT(*) AS employee_count FROM employees GROUP BY YEAR(hire_date);</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z21.png"> 
+    </div>
+    `;
+}
+function z22(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE salary IN (5000, 6000);</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z22.png"> 
+    </div>
+    `;
+}
+function z23(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE department = 'IT' AND salary > 5000;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z23.png"> 
+    </div>
+    `;
+}
+function z24(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT COUNT(*) AS project_count FROM projects;
+</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z24.png"> 
+    </div>
+    `;
+}
+function z25(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT d.department_name 
+FROM departments d
+LEFT JOIN projects p ON d.department_id = p.department_id
+WHERE p.department_id IS NULL;
+</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z25.png"> 
+    </div>
+    `;
+}
+function z26(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name, salary FROM employees WHERE department = 'HR' ORDER BY salary DESC;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z26.png"> 
+    </div>
+    `;
+}
+function z27(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE first_name LIKE 'A%';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z27.png"> 
+    </div>
+    `;
+}
+function z28(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT AVG(salary) AS average_salary FROM employees WHERE department = 'IT';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z28.png"> 
+    </div>
+    `;
+}
+function z29(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name FROM employees WHERE hire_date BETWEEN '2015-01-01' AND '2017-12-31';</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z29.png"> 
+    </div>
+    `;
+}
+function z30(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees 
+WHERE department = 'Finance' 
+AND salary > (SELECT AVG(salary) FROM employees WHERE department = 'Finance');
+</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z30.png"> 
+    </div>
+    `;
+}
+function z31(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name, department FROM employees ORDER BY last_name DESC;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z31.png"> 
+    </div>
+    `;
+}
+function z32(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM projects ORDER BY start_date DESC LIMIT 1;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z32.png"> 
+    </div>
+    `;
+}
+function z33(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT last_name FROM employees 
+WHERE salary < 5000 
+AND hire_date < DATE_SUB(CURDATE(), INTERVAL 5 YEAR);
+</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z33.png"> 
+    </div>
+    `;
+}
+function z34(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM projects WHERE department_id = (SELECT department_id FROM departments WHERE department_name = 'IT');</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z34.png"> 
+    </div>
+    `;
+}
+function z35(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department, COUNT(*) AS employee_count 
+FROM employees 
+WHERE salary > 4500 
+GROUP BY department;
+</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z35.png"> 
+    </div>
+    `;
+}
+function z36(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT department, AVG(salary) AS average_salary FROM employees GROUP BY department ORDER BY department;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z36.png"> 
+    </div>
+    `;
+}
+function z37(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT projects_name, DATEDIFF(end_date, start_date) AS duration_days FROM projects;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z37.png"> 
+    </div>
+    `;
+}
+function z38(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM employees WHERE department NOT IN ('HR', 'IT');</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z38.png"> 
+    </div>
+    `;
+}
+function z39(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT MIN(salary) AS minimum_salary, MAX(salary) AS maximum_salary, AVG(salary) AS average_salary FROM employees;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z39.png"> 
+    </div>
+    `;
+}
+function z40(){
+    document.getElementById("contents").innerHTML=" ";
+
+    document.getElementById("contents").innerHTML=`
+    <h1 style="font-size:4rem;">Zapytanie:</h1>
+    <h2>SELECT * FROM projects WHERE DATEDIFF(end_date, start_date) > 180;</h2>
+    <h1>Wynik:</h1>
+    <div class="zdjecie">
+       <img src="z40.png"> 
+    </div>
+    `;
+}
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

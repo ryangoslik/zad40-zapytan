@@ -1,0 +1,82 @@
+1. Wyświetl wszystkie dane z tabeli employees.
+
+2. Wyświetl imiona i nazwiska pracowników.
+
+3. Wyświetl nazwiska pracowników pracujących w dziale IT. 
+
+4. Wyświetl wszystkich pracowników, którzy zarabiają więcej niż 4500.
+
+5. Wyświetl imiona i pensje pracowników pracujących w dziale HR.
+
+6. Wyświetl pracowników zatrudnionych po 1 stycznia 2016 roku.
+
+7. Wyświetl pracowników, których pensja jest pomiędzy 4000 a 5500. 
+
+8. Wyświetl liczbę pracowników w każdym dziale.
+
+ 9. Wyświetl średnią pensję w każdym dziale.
+ 
+ 10. Wyświetl największą pensję w firmie.
+
+11. Wyświetl nazwiska i daty zatrudnienia pracowników, posortowane według daty zatrudnienia rosnąco.
+
+
+12. Wyświetl wszystkich pracowników pracujących w dziale HR lub IT. 
+
+13. Wyświetl wszystkie projekty rozpoczęte w 2022 roku.
+
+14. Wyświetl imiona i pensje pracowników, którzy zarabiają więcej niż średnia pensja w firmie.
+
+15. Wyświetl liczbę projektów w każdym dziale.
+
+16. Wyświetl projekty, które zakończą się przed końcem 2022 roku. 
+
+17. Wyświetl nazwy wszystkich działów z tabeli departments.
+
+18. Wyświetl wszystkich pracowników, którzy mają w nazwisku literę "o".
+
+19 . Wyświetl nazwisko pracownika z najwcześniejszą datą zatrudnienia. 
+
+20. Wyświetl nazwiska i pensje wszystkich pracowników posortowane malejąco według pensji.
+
+21 . Wyświetl liczbę pracowników zatrudnionych w każdym roku. 
+
+22. Wyświetl pracowników, którzy mają pensję równą 5000 lub 6000.
+
+24. Wyświetl pracowników, którzy pracują w dziale IT i zarabiają powyżej 5000.
+
+23. Wyświetl liczbę projektów w tabeli projects.
+
+25. Wyświetl wszystkie działy z tabeli departments, które nie mają przypisanego projektu. 26. Wyświetl nazwiska i pensje pracowników z działu HR posortowane malejąco według pensji.
+
+27. Wyświetl wszystkich pracowników, których imię zaczyna się na literę "A".
+
+28. Wyświetl średnią pensję pracowników w dziale IT.
+
+. Wyświetl pracowników pracujących w dziale Finance z pensją powyżej średniej w tym dziale.
+
+29. Wyświetl nazwiska pracowników, którzy zostali zatrudnieni w latach 2015-2017. 
+
+30 Wyświetl pracowników pracujacych w dizle Finance z pensją powyżej średniej w tym dziale
+
+31 Wyświetl nazwiska i działy pracowników, posortowane malejąco według nazwiska.
+
+32. Wyświetl najnowszy projekt (ten, który rozpoczął się najpóźniej).
+
+33 . Wyświetl nazwiska pracowników, którzy zarabiają mniej niż 5000 i są zatrudnieni dłużej niż 5 lat.
+
+34 . Wyświetl wszystkie projekty dla działu IT.
+
+35 . Wyświetl liczbę pracowników w każdym dziale, którzy zarabiają więcej niż 4500.
+
+36. Wyświetl średnią pensję pracowników, posortowaną według działu.
+
+37 . Wyświetl liczbę dni trwania każdego projektu.
+
+38. Wyświetl wszystkich pracowników, którzy nie pracują w dziale HR ani IT.
+
+39. Wyświetl minimalną, maksymalną i średnią pensję w firmie.
+
+40. Wyświetl projekty, które trwają dłużej niż 180 dni.
+
+
